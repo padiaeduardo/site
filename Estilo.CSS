@@ -2,28 +2,39 @@
     --preto:#000000
     --branco-principal:#FFFFFF
     --zinza:#D9D9D9
-    --azul pincipal:#80a1C8
-    --azul mist:#2174A3
-    --azul escuro:#2400B6
+    --azul-pincipal:#80a1C8
+    --azul-mist:#2174A3
+    --azul-escuro:#2400B6
     --marrom:#421C1C
-    --azul duplo:#547EEB
-    --azul legal:#5F8AB3
-    --Aul roxo:#6C89D6
+    --azul-duplo:#547EEB
+    --azul-legal:#5F8AB3
+    --Aul-roxo:#6C89D6
     --rosa:#D4D0FF
     --pele:#EADCDC
-    --branco mais:#FFF5F5
-    --azul brnco:#Linear
+    --branco-mais:#FFF5F5
+    --azul-brnco:#Linear
 }
-
+ 
 body{
-
-background-color: var(--azul legal);
-color: var(--azul escuro);
+ background-color: var(--azul-legal);
+ color: var(--azul-escuro);
 
 }
 
 
-{
-    margin:;
-    margin
-    }
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.principal{
+    background-image: url(img/rest2 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.container{
+    height: 100vh;
+}
