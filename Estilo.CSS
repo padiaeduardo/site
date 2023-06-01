@@ -8,7 +8,7 @@
     --marrom:#421C1C
     --azul-duplo:#547EEB
     --azul-legal:#5F8AB3
-    --Aul-roxo:#6C89D6
+    --Azul-roxo:#6C89D6
     --rosa:#D4D0FF
     --pele:#EADCDC
     --branco-mais:#FFF5F5
@@ -17,6 +17,7 @@
  
 body{
  background-color: var(--azul-legal);
+ color: var(--azul-escuro);
  color: var(--azul-escuro);
 
 }
@@ -37,4 +38,12 @@ body{
 
 .container{
     height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--preto);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--preto);
+    display: block;
 }
