@@ -1,24 +1,24 @@
 :root{
-    --preto:#000000
-    --branco-principal:#FFFFFF
-    --zinza:#D9D9D9
-    --azul-pincipal:#80a1C8
-    --azul-mist:#2174A3
-    --azul-escuro:#2400B6
-    --marrom:#421C1C
-    --azul-duplo:#547EEB
-    --azul-legal:#5F8AB3
-    --Azul-roxo:#6C89D6
-    --rosa:#D4D0FF
-    --pele:#EADCDC
-    --branco-mais:#FFF5F5
-    --azul-brnco:#Linear
-}
+    --preto: #000000;
+    --branco-principal: #FFFFFF;
+    --zinza: #D9D9D9;
+    --azul-pincipal: #80a1C8;
+    --azul-mist: #2174A3;
+    --azul-escuro: #2400B6;
+    --marrom: #421C1C;
+    --cor-de-fundo: #547EEB;
+    --azul-legal: #5F8AB3;
+    --Azul-roxo: #6C89D6;
+    --rosa: #D4D0FF;
+    --pele: #EADCDC;
+    --branco-mais: #FFF5F5;
+    --azul-brnco: Linear;
+    }
  
 body{
- background-color: var(--azul-legal);
- color: var(--azul-escuro);
- color: var(--azul-escuro);
+   background-color: var(--cor-de-fundo);
+   color: var(--azul-escuro);
+ 
 
 }
 
@@ -38,12 +38,13 @@ body{
 
 .container{
     height: 100vh;
+    display:
 }
 
 .container__botao {
     background-color: var(--preto);
     border-radius: 5px;
     padding: 1em;
-    color: var(--preto);
+    color: var(--azul-pincipal);
     display: block;
 }
